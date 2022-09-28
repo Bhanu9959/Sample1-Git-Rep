@@ -1,0 +1,187 @@
+HTML:
+
+It is used as
+
+<html></html>
+It is the building tag for HTML. If you are creating an HTML file you have to use incorporate all your content inside HTML tag.
+
+DOCTYPE:
+
+It is used to define the document type. It is not an HTML tag. It is declared before the HTML tag as it is the instruction to the website which says that the document ahead is HTML type. It is declared using syntax (for HTML5):
+
+<!DOCTYPE html>
+ 
+
+HEAD:
+
+Once you open the HTML tag, the head tag should be the first thing to come. It is the tag which does not contain any text but encompasses all the other tags. Tittle, style, Meta etc. all the tags are written inside it. It is used to describe the content on the website.
+
+Syntax:
+
+<head></head>
+ 
+
+TITLE:
+
+This tag is used when you want to give a title to your content. The title tag also comes under the head tag. It does not include any other tag inside it. Only text can be written inside this tag.
+
+Example:
+
+<title> this is heading<\title>
+BODY:
+
+Anything which you see on the website is written under this tag. So the content which you want should be visible to people, has to be incorporated into body tag. One thing to remember is this comes after the head tag.
+
+An example to use it is:
+
+<Body>this is the body</body>
+ 
+
+DIV:
+
+The div tag, also known as the division tag, is used to define the division of the content in the file. It often acts as a container for the other elements or tags in the file. This is usually used for styling the content in the file. It is used as
+
+<div></div>
+ 
+
+SPAN:
+
+It is used to wrap the entire text in the file. It is basically used to group the inline content of the file. It is used as:
+
+<span></span>
+ 
+
+A:
+
+This is the hyperlink tag. In this tag, you can pass a link of page or website where you will like to direct the viewer. It consists of “href” attribute which is very important as the destination is passed into this attribute.
+Example:
+
+<a href="https://www.ggogle.com">google</a>.
+ 
+
+TABLE:
+
+It is the table tag which is declared as
+
+<table></table>
+Although this tag won’t make any difference unless some content is passed into it. There are many other tags which are passed along with it to provide the layout.
+
+ 
+
+THEAD:
+
+It is another one of the table tags which is used to group the header content of the table in a file. It represents the top row of table which provides the heading for the columns.
+
+<thead></thead>
+ 
+
+TBODY:
+
+It is another one of the table tags which is used to group the body content of the table in a file. Used within the table tags and is used to show actual table data (it’s used after “<thead>” tag (if any).
+
+Syntax:
+
+<table>
+<tbody>
+<tr><td>Site</td><td>URL</td></tr>
+<tr><td>Bitarray</td><td>https://bitarray.io</td></tr>
+<tr><td>google</td><td>https://www.google.com</td></tr>
+</tbody>
+</table>
+in the above example, we have tbody tag (Note: there is no <thead>). Above example has 3 rows(one header and other two are values).
+
+ 
+
+TR:
+
+This tag is passed inside the table tag. It is used to declare the table row. Even this tag is void until tags which pass the content are passed into it. It is written as <tr></tr>. It contains at least one <td> or <th> element into it.
+
+ 
+
+TD:
+
+This tag is passed inside the <tr> tag. It can contain any content inside itself. It is used to define the content which should be passed in the table row. Content inside <td></td> is equivalent of one cell. <tr> is the beginning of a new row. The syntax for this tag is:
+
+<tr><td>Value1</td><td>Value2</td></tr>
+Above example has one row with two columns.
+
+ 
+
+BR:
+
+It is the line break command which is used to break the lines inside the file. All it does is to add spacing in the paragraph and ensure that the line following it appears in the new line. There is no closing tag for <br>
+Syntax:
+
+<br>
+ 
+
+ 
+
+SCRIPT:
+
+When you want to define the client-side script inside your file, you use script tag. It usually contains the scripting statement inside it or may direct towards any other using src attribute. It also might contain javascript and plugin files to make the webpages interactive.
+
+Syntax:
+
+<script>
+<!-- javascript code -->
+</script>
+ 
+
+ 
+
+IMG:
+
+If you wish to put any image in the HTML files, you can do the same using img tag. You can define the height and width of the image using other attributes inside it and thus, can customize image according to yourself.
+Syntax:
+
+<img src=https://bitarray.io/images.logo.png alt="bitarray logo">
+<img> tag has no closing tag.
+
+ 
+
+UL:
+
+Ul tag is used to define the unordered list in the file. It posts the limits with bullets on the website. This is a block-level element in which List Items are placed.
+Syntax:
+
+<ul>
+ <li> Item 1
+ <li> Item 2
+</ul>
+ 
+
+LI:
+
+Li tag is used along with the tag to pass the hierarchy of list in the file. When you want to pass a list inside a list we make use of li tag.
+
+Example:
+
+<ul>books
+<li>fictional</li>
+<li>classic</li>
+<li>mystery</li>
+</ul>
+ 
+
+HR:
+
+This tag is used to depict the change of themes within the content of the file. When there is any change between the content we use <hr> tag. It separated the content into two so that changes are easily visible to the viewer. It inserts a horizontal line. till HTML 4.01 it used to represent the horizontal rule.
+Example:
+
+<h1> heading 1</h1> 
+//line 1
+//line 2
+//line 3
+<hr>
+<h2>heading 2</h2>
+ 
+
+STRONG:
+
+<strong> tag is used to declare the important text in the file. All it does is that it put the text into bold. This is done so that important text can easily be read by the viewer.
+Example:
+
+<strong> this is strong text</strong>
+ 
+
